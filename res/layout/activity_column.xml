@@ -1,0 +1,46 @@
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  
+   <TextView 
+       android:id="@+id/ColNOKTP"
+       android:layout_width="2dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="No KTP"
+       android:textColor="#ffffff"/>
+   
+     <TextView 
+       android:id="@+id/ColNama"
+	   android:layout_width="20dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="2"
+       android:text="Nama"
+       android:textColor="#ffffff"/>
+  
+       <TextView 
+       android:id="@+id/ColGender"
+       android:layout_width="20dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="Gender"
+       android:textColor="#ffffff"/>
+       
+       <TextView 
+       android:id="@+id/ColStatus"
+       android:layout_width="20dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="Status"
+       android:textColor="#ffffff"/>
+       
+       <TextView 
+       android:id="@+id/ColTanggallahir"
+       android:layout_width="20dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:text="Tanggal Lahir"
+       android:textColor="#ffffff"/>
+       </LinearLayout>
